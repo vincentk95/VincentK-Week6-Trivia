@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01238B50210B25E57E8CCDB9 /* Pods_TriviaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC03F756BD0627579DCF519 /* Pods_TriviaTests.framework */; };
+		0F642F607A8BB55E2FC52EFE /* Pods_TriviaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC3BBA661AD6C3A28B5368F /* Pods_TriviaUITests.framework */; };
+		BD1A078B18A415C579B731E3 /* Pods_Trivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BB2883ED485450CC1AA8D7 /* Pods_Trivia.framework */; };
 		BF7993E6205A7EBA00A5CECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7993E5205A7EBA00A5CECC /* AppDelegate.swift */; };
-		BF7993E8205A7EBA00A5CECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7993E7205A7EBA00A5CECC /* ViewController.swift */; };
 		BF7993EB205A7EBA00A5CECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7993E9205A7EBA00A5CECC /* Main.storyboard */; };
 		BF7993ED205A7EBA00A5CECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7993EC205A7EBA00A5CECC /* Assets.xcassets */; };
 		BF7993F0205A7EBA00A5CECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7993EE205A7EBA00A5CECC /* LaunchScreen.storyboard */; };
 		BF7993FB205A7EBA00A5CECC /* TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7993FA205A7EBA00A5CECC /* TriviaTests.swift */; };
 		BF799406205A7EBA00A5CECC /* TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF799405205A7EBA00A5CECC /* TriviaUITests.swift */; };
+		BF799414205A7EE300A5CECC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF799413205A7EE300A5CECC /* GoogleService-Info.plist */; };
+		BFD25E93205C5F69002D9FD2 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD25E92205C5F69002D9FD2 /* ResultsViewController.swift */; };
+		BFD3B5B8205A8992009ABAB9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3B5B7205A8992009ABAB9 /* LoginViewController.swift */; };
+		BFE9DAF9205ABDD7008B22EE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9DAF8205ABDD7008B22EE /* RegisterViewController.swift */; };
+		BFE9DAFB205B0374008B22EE /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9DAFA205B0374008B22EE /* QuestionViewController.swift */; };
+		BFE9DAFD205B0553008B22EE /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9DAFC205B0553008B22EE /* GameData.swift */; };
+		BFE9DAFF205B086C008B22EE /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9DAFE205B086C008B22EE /* QuestionController.swift */; };
+		BFECCED2205C816300445ACC /* doc in Resources */ = {isa = PBXBuildFile; fileRef = BFECCED1205C816300445ACC /* doc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07FA12FA8C6D7B958A2C1C99 /* Pods-Trivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trivia/Pods-Trivia.release.xcconfig"; sourceTree = "<group>"; };
+		16798DBC7C2FDC04FE904607 /* Pods-Trivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trivia/Pods-Trivia.debug.xcconfig"; sourceTree = "<group>"; };
+		2CC3BBA661AD6C3A28B5368F /* Pods_TriviaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TriviaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4234E3D98A7AE4097158F9B8 /* Pods-TriviaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriviaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TriviaTests/Pods-TriviaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CC03F756BD0627579DCF519 /* Pods_TriviaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TriviaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		994C5C83C7465FE1FF7EF803 /* Pods-TriviaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriviaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TriviaUITests/Pods-TriviaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BF7993E2205A7EBA00A5CECC /* Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7993E5205A7EBA00A5CECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF7993E7205A7EBA00A5CECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF7993EA205A7EBA00A5CECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF7993EC205A7EBA00A5CECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF7993EF205A7EBA00A5CECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,17 @@
 		BF799401205A7EBA00A5CECC /* TriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF799405205A7EBA00A5CECC /* TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaUITests.swift; sourceTree = "<group>"; };
 		BF799407205A7EBA00A5CECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF799413205A7EE300A5CECC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BFD25E92205C5F69002D9FD2 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		BFD3B5B7205A8992009ABAB9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BFE9DAF8205ABDD7008B22EE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		BFE9DAFA205B0374008B22EE /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		BFE9DAFC205B0553008B22EE /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		BFE9DAFE205B086C008B22EE /* QuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
+		BFECCED1205C816300445ACC /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = SOURCE_ROOT; };
+		C3368359A7D76FA5600CD229 /* Pods-TriviaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriviaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TriviaTests/Pods-TriviaTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5BB2883ED485450CC1AA8D7 /* Pods_Trivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35FC421C2FC775276EE7DCE /* Pods-TriviaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriviaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TriviaUITests/Pods-TriviaUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1A078B18A415C579B731E3 /* Pods_Trivia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01238B50210B25E57E8CCDB9 /* Pods_TriviaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F642F607A8BB55E2FC52EFE /* Pods_TriviaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25178AD6BB3CC6E7ECDF7711 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16798DBC7C2FDC04FE904607 /* Pods-Trivia.debug.xcconfig */,
+				07FA12FA8C6D7B958A2C1C99 /* Pods-Trivia.release.xcconfig */,
+				4234E3D98A7AE4097158F9B8 /* Pods-TriviaTests.debug.xcconfig */,
+				C3368359A7D76FA5600CD229 /* Pods-TriviaTests.release.xcconfig */,
+				994C5C83C7465FE1FF7EF803 /* Pods-TriviaUITests.debug.xcconfig */,
+				D35FC421C2FC775276EE7DCE /* Pods-TriviaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		326C2A0F01C03CE6497DEBAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB2883ED485450CC1AA8D7 /* Pods_Trivia.framework */,
+				8CC03F756BD0627579DCF519 /* Pods_TriviaTests.framework */,
+				2CC3BBA661AD6C3A28B5368F /* Pods_TriviaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF7993D9205A7EBA00A5CECC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,8 @@
 				BF7993F9205A7EBA00A5CECC /* TriviaTests */,
 				BF799404205A7EBA00A5CECC /* TriviaUITests */,
 				BF7993E3205A7EBA00A5CECC /* Products */,
+				25178AD6BB3CC6E7ECDF7711 /* Pods */,
+				326C2A0F01C03CE6497DEBAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +151,16 @@
 		BF7993E4205A7EBA00A5CECC /* Trivia */ = {
 			isa = PBXGroup;
 			children = (
+				BFECCED1205C816300445ACC /* doc */,
+				BF799413205A7EE300A5CECC /* GoogleService-Info.plist */,
 				BF7993E5205A7EBA00A5CECC /* AppDelegate.swift */,
-				BF7993E7205A7EBA00A5CECC /* ViewController.swift */,
 				BF7993E9205A7EBA00A5CECC /* Main.storyboard */,
+				BFE9DAFC205B0553008B22EE /* GameData.swift */,
+				BFE9DAFA205B0374008B22EE /* QuestionViewController.swift */,
+				BFD25E92205C5F69002D9FD2 /* ResultsViewController.swift */,
+				BFE9DAFE205B086C008B22EE /* QuestionController.swift */,
+				BFE9DAF8205ABDD7008B22EE /* RegisterViewController.swift */,
+				BFD3B5B7205A8992009ABAB9 /* LoginViewController.swift */,
 				BF7993EC205A7EBA00A5CECC /* Assets.xcassets */,
 				BF7993EE205A7EBA00A5CECC /* LaunchScreen.storyboard */,
 				BF7993F1205A7EBA00A5CECC /* Info.plist */,
@@ -132,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF79940A205A7EBA00A5CECC /* Build configuration list for PBXNativeTarget "Trivia" */;
 			buildPhases = (
+				4313376F611AAC9570B32801 /* [CP] Check Pods Manifest.lock */,
 				BF7993DE205A7EBA00A5CECC /* Sources */,
 				BF7993DF205A7EBA00A5CECC /* Frameworks */,
 				BF7993E0205A7EBA00A5CECC /* Resources */,
+				1A6DAC9847266F5FCDC09102 /* [CP] Embed Pods Frameworks */,
+				9B58489D2973010FCCEACEBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF79940D205A7EBA00A5CECC /* Build configuration list for PBXNativeTarget "TriviaTests" */;
 			buildPhases = (
+				61E1D22538D03CE51C9686C0 /* [CP] Check Pods Manifest.lock */,
 				BF7993F2205A7EBA00A5CECC /* Sources */,
 				BF7993F3205A7EBA00A5CECC /* Frameworks */,
 				BF7993F4205A7EBA00A5CECC /* Resources */,
+				ECE34E410B3DA1AFBD159B40 /* [CP] Embed Pods Frameworks */,
+				F0451451E7DAD0AEC200FBC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF799410205A7EBA00A5CECC /* Build configuration list for PBXNativeTarget "TriviaUITests" */;
 			buildPhases = (
+				FE521701C810CD8158C0B4A8 /* [CP] Check Pods Manifest.lock */,
 				BF7993FD205A7EBA00A5CECC /* Sources */,
 				BF7993FE205A7EBA00A5CECC /* Frameworks */,
 				BF7993FF205A7EBA00A5CECC /* Resources */,
+				DF603815621C12B6249CFF4D /* [CP] Embed Pods Frameworks */,
+				E72FE4379F71A93A5CDED1E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +302,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFECCED2205C816300445ACC /* doc in Resources */,
 				BF7993F0205A7EBA00A5CECC /* LaunchScreen.storyboard in Resources */,
+				BF799414205A7EE300A5CECC /* GoogleService-Info.plist in Resources */,
 				BF7993ED205A7EBA00A5CECC /* Assets.xcassets in Resources */,
 				BF7993EB205A7EBA00A5CECC /* Main.storyboard in Resources */,
 			);
@@ -254,13 +326,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A6DAC9847266F5FCDC09102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Trivia/Pods-Trivia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trivia/Pods-Trivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4313376F611AAC9570B32801 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trivia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61E1D22538D03CE51C9686C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TriviaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B58489D2973010FCCEACEBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trivia/Pods-Trivia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF603815621C12B6249CFF4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TriviaUITests/Pods-TriviaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E72FE4379F71A93A5CDED1E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TriviaUITests/Pods-TriviaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE34E410B3DA1AFBD159B40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TriviaTests/Pods-TriviaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0451451E7DAD0AEC200FBC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TriviaTests/Pods-TriviaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE521701C810CD8158C0B4A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TriviaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF7993DE205A7EBA00A5CECC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF7993E8205A7EBA00A5CECC /* ViewController.swift in Sources */,
+				BFD3B5B8205A8992009ABAB9 /* LoginViewController.swift in Sources */,
+				BFE9DAFD205B0553008B22EE /* GameData.swift in Sources */,
 				BF7993E6205A7EBA00A5CECC /* AppDelegate.swift in Sources */,
+				BFD25E93205C5F69002D9FD2 /* ResultsViewController.swift in Sources */,
+				BFE9DAFB205B0374008B22EE /* QuestionViewController.swift in Sources */,
+				BFE9DAF9205ABDD7008B22EE /* RegisterViewController.swift in Sources */,
+				BFE9DAFF205B086C008B22EE /* QuestionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +657,7 @@
 		};
 		BF79940B205A7EBA00A5CECC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16798DBC7C2FDC04FE904607 /* Pods-Trivia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +672,7 @@
 		};
 		BF79940C205A7EBA00A5CECC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FA12FA8C6D7B958A2C1C99 /* Pods-Trivia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +687,7 @@
 		};
 		BF79940E205A7EBA00A5CECC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4234E3D98A7AE4097158F9B8 /* Pods-TriviaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +704,7 @@
 		};
 		BF79940F205A7EBA00A5CECC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3368359A7D76FA5600CD229 /* Pods-TriviaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +721,7 @@
 		};
 		BF799411205A7EBA00A5CECC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994C5C83C7465FE1FF7EF803 /* Pods-TriviaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +737,7 @@
 		};
 		BF799412205A7EBA00A5CECC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35FC421C2FC775276EE7DCE /* Pods-TriviaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

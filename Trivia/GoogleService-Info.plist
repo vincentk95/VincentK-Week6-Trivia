@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>184442109038-kat60oh4lcsf3c068d9442ifeg7vmgaj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.184442109038-kat60oh4lcsf3c068d9442ifeg7vmgaj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAUId4Ao7QLDYMOKXT8l1DkVQHYmQ8bjNM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>184442109038</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>nl.mprog.Trivia</string>
+	<key>PROJECT_ID</key>
+	<string>nap-trivia</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nap-trivia.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:184442109038:ios:5866b390c2d42fd0</string>
+	<key>DATABASE_URL</key>
+	<string>https://nap-trivia.firebaseio.com</string>
+</dict>
+</plist>
